@@ -14,7 +14,7 @@ int main()
         {
             f = f * j;
         }
-        printf("%d\n", f);
+        printf("%lld\n", f);
     }
     return 0;
 }
