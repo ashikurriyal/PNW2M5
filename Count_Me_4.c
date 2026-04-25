@@ -8,7 +8,7 @@ int main()
     int freq[26] = {0};
     for (int i = 0; s[i] != '\0'; i++)
     {
-        int index = s[i] - 'a'; // Convert 'a'-'z' to 0-25
+        int index = s[i] - 'a'; 
         freq[index]++;
     }
 
